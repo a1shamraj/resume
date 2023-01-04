@@ -592,6 +592,10 @@ Responsive XS Style @media (max-width: 767px)
         padding-bottom: 60px;
     }
 
+    .ds-education-section {
+        padding-bottom: 10px;
+    }
+
     .ds-about-section p,
     .ds-work-content-sec p,
     .ds-hire-section p,
@@ -608,12 +612,14 @@ Responsive XS Style @media (max-width: 767px)
     }
 
     .ds-skills-section .col-12,
-    .ds-experience-list .col-12 {
+    .ds-experience-list .col-12,
+    .ds-education-list .col-12 {
         margin-bottom: 40px;
     }
 
     .ds-skills-section,
     .ds-work-section,
+    .ds-education-list-section,
     .ds-experience-section {
         padding-bottom: 0;
     }
@@ -667,7 +673,8 @@ Responsive XS Style @media (max-width: 767px)
         padding: 30px 0;
     }
 
-    .ds-work-list section {
+    .ds-work-list section,
+    .ds-education-list section {
         padding-right: 0;
         padding-bottom: 30px;
     }
@@ -675,7 +682,8 @@ Responsive XS Style @media (max-width: 767px)
 
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .ds-work-list section {
+    .ds-work-list section,
+    .ds-education-list section {
         padding-right: 30px;
     }
 
@@ -686,7 +694,8 @@ Responsive XS Style @media (max-width: 767px)
         padding-right: 0;
     }
 
-    .ds-work-list section {
+    .ds-work-list section,
+    .ds-education-list section{
         padding-right: 30px;
         padding-bottom: 60px;
     }
