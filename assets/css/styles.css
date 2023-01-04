@@ -232,6 +232,11 @@ svg,img {
     padding-bottom: 120px;
 }
 
+.ds-hire-section {
+    padding-top: 60px;
+    padding-bottom: 5px;
+}
+
 .ds-heading {
     display: inline-block;
     font-weight: 700;
@@ -250,6 +255,13 @@ svg,img {
     line-height: 40px;
     font-weight: 300;
     margin-bottom: 60px;
+}
+
+.ds-hire-section p {
+    color: #373737;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 300;
 }
 
 .ds-button {
