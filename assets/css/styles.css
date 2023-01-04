@@ -589,6 +589,7 @@ Responsive XS Style @media (max-width: 767px)
 
     .ds-about-section p,
     .ds-work-content-sec p,
+    .ds-hire-section p,
     .ds-work-content-sec li {
         font-size: 15px;
         line-height: 30px;
