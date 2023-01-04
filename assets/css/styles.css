@@ -387,6 +387,10 @@ span.ds-department {
     padding-bottom: 80px;
 }
 
+.ds-education-section {
+    padding-bottom: 80px;
+}
+
 .ds-work-list {
     padding-left: 70px;
     padding-top: 40px;
@@ -538,6 +542,7 @@ Responsive XS Style @media (max-width: 767px)
     .ds-about-section,
     .ds-skills-section,
     .ds-experience-section,
+    .ds-education-section,
     .ds-work-section,
     .ds-work-details-section {
         padding-left: 10px;
