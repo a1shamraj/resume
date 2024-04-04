@@ -314,6 +314,11 @@ svg,img {
     font-weight: 500;
 }
 
+.ds-skills-list li:hover {
+    background-color: #F26464;
+    color: #FFF;
+}
+
 .ds-experience-section {
     padding-bottom: 120px;
 }
@@ -678,6 +683,10 @@ Responsive XS Style @media (max-width: 767px)
         padding-right: 0;
         padding-bottom: 30px;
     }
+}
+
+.view-proj {
+    padding-top: 25px;
 }
 
 
