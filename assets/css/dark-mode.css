@@ -1,0 +1,261 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+#toggle-dark-mode {
+    background-color: #e0e0e0; 
+    color: #373737; 
+}
+
+#toggle-dark-mode:hover {
+    background-color: #F26464;
+    color: #fff; 
+}
+
+.ds-header {
+    background-color: #1e1e1e;
+}
+
+.ds-header h2{
+    color: #e0e0e0;
+}
+
+.ds-logo span {
+    background-color: #e0e0e0;
+    color: #121212;
+}
+
+.ds-logo:hover,
+.ds-logo:hover span {
+    color: #bb86fc;
+}
+
+.ds-logo {
+    color: #e0e0e0;
+}
+
+.ds-heading {
+    color: #e0e0e0;
+    border-bottom: 3px solid #bb86fc;
+}
+
+.ds-banner section h1,
+.ds-banner section h2,
+.ds-banner section span,
+.ds-hire-section p,
+.ds-about-section p {
+    color: #e0e0e0;
+}
+
+.ds-numbervalulist strong {
+    color: #bb86fc;
+}
+
+.ds-button {
+    color: #bb86fc;
+    border-color: #bb86fc;
+}
+
+.ds-button:hover {
+    background-color: #bb86fc;
+    color: #121212;
+}
+
+.ds-social li a {
+    background-color: #bb86fc;
+}
+
+.ds-social li a:hover {
+    background-color: #3700b3;
+}
+
+.ds-skills-list li {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.ds-skills-list li:hover {
+    background-color: #bb86fc;
+    color: #121212;
+}
+
+/* Card styles for dark mode */
+.card {
+    background-color: #333;
+    color: #e0e0e0; 
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3); 
+    transition: box-shadow 0.3s ease-in-out; 
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.5); 
+}
+
+.ds-education-section .card-body {
+    border-bottom: 1px solid #555; 
+}
+
+.ds-education-section .card-body .card-title {
+    color: #bb86fc; 
+}
+
+.ds-education-section .card-body .card-subtitle,
+.ds-education-section .card-body .ds-year {
+    color: #ccc; 
+}
+
+.ds-experience-section .card ul {
+    color: #ccc; 
+}
+
+.xp-card {
+    background-color: #333; 
+    color: #e0e0e0; 
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3); 
+    transition: box-shadow 0.3s ease-in-out; 
+    padding: 1.5rem; 
+    margin-bottom: 1.5rem; 
+}
+
+.xp-card:hover {
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.5); 
+}
+
+.xp-card .ds-year,
+.xp-card .ds-department {
+    color: #ccc; 
+    padding-bottom: 1rem; 
+}
+
+.xp-card .ds-officename {
+    color: #bb86fc; 
+    padding-bottom: 0.5rem; 
+}
+
+.xp-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.xp-card ul li {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    padding-left: 28px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.xp-card ul li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    border-radius: 100%;
+    width: 8px;
+    height: 8px;
+    background-color: #fff; 
+}
+
+
+.ds-work-list {
+    padding-left: 70px;
+    padding-top: 40px;
+    padding-right: 70px;
+    background-color: #121212; 
+    margin-bottom: 40px;
+}
+
+.ds-work-list section {
+    padding-top: 20px;
+    padding-right: 120px;
+}
+
+.ds-work-tilte {
+    color: #fff; 
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.ds-work-list p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ccc; 
+}
+
+.ds-work-list .ds-button {
+    margin-top: 20px;
+    color: #bb86fc; 
+    border-color: #bb86fc; 
+}
+
+.ds-work-det-title {
+    font-weight: 600;
+    color: #fff; 
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.ds-work-det-dep {
+    display: block;
+    font-weight: 600;
+    color: #fff; 
+    font-size: 18px;
+}
+
+.ds-work-content-sec {
+    padding: 100px 0;
+}
+
+.ds-work-content-sec p {
+    font-size: 18px;
+    line-height: 36px;
+    margin-bottom: 30px;
+    color: #ccc; 
+}
+
+.ds-work-content-sec h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #fff; 
+}
+
+.ds-work-content-sec ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ds-work-content-sec li {
+    font-size: 18px;
+    line-height: 36px;
+    padding-left: 28px;
+    position: relative;
+    margin-bottom: 20px;
+    color: #ccc; 
+}
+
+.ds-work-content-sec li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 13px;
+    border-radius: 100%;
+    width: 8px;
+    height: 8px;
+    background-color: #fff; 
+}
+
+.work-card p {
+    padding-right: 20px; 
+}
