@@ -259,3 +259,12 @@ body {
 .work-card p {
     padding-right: 20px; 
 }
+
+.typewriter {
+    border-right: .15em solid rgba(255, 255, 255, 0.75);
+}
+
+@keyframes blinkTextCursor {
+    from { border-right-color: rgba(255, 255, 255, 0.75); }
+    to { border-right-color: transparent; }
+}
